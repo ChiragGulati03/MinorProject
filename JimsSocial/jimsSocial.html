@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JimsSocial</title>
+    <link rel="stylesheet" href="jimsSocial.css" />
+    <script src="https://kit.fontawesome.com/7e7b9f01da.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    
+    <nav>
+      <div class="nav-left">
+        <a href="index.html"><img src="images/jimsLogo.png" class="logo" alt="logo" /></a>
+        <ul>
+          <li><img src="images/notification.png" alt="" /></li>
+          <li><img src="images/inbox.png" alt="" /></li>
+          <li><img src="images/video.png" alt="" /></li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <div class="search-box">
+          <img src="images/search.png" alt="Search" />
+          <input type="text" placeholder="Search" />
+        </div>
+        <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+          <img src="images/profile-pic.png" alt="profile-pic" />
+        </div>
+      </div>
+<!-- Seetings Menu -->
+      <div class="settings-menu">
+
+        <div id="dark-btn" >
+          <span></span>
+        </div>
+
+        <div class="settings-menu-inner">
+              <div class="user-profile">
+                <a href="profile.html"><img src="images/profile-pic.png" alt=""></a>
+                
+                <div>
+                  <p>Clint Barton</p>
+                <a href="profile.html"> See Your Profile</a>
+                </div>
+              </div>
+              <hr>
+              <div class="user-profile">
+                <img src="images/feedback.png" alt="">
+                <div>
+                  <p>Give Feedback</p>
+                <a href="#"> Help us to improve the new design</a>
+                </div>
+              </div>
+              <hr>
+
+
+              <div class="settings-links">
+                <img src="images/setting.png" class="settings-icon">
+                <a href="#">Settings & Privacy <img src="images/arrow.png" width="10px" alt=""> </a>
+              </div>
+
+              <div class="settings-links">
+                <img src="images/help.png" class="settings-icon">
+                <a href="#">Help & Support <img src="images/arrow.png" width="10px" alt=""> </a>
+              </div>
+
+              <div class="settings-links">
+                <img src="images/display.png" class="settings-icon">
+                <a href="#">Display & Accessibility<img src="images/arrow.png" width="10px" alt=""> </a>
+              </div>
+              <div class="settings-links">
+                <img src="images/logout.png" class="settings-icon">
+                <a href="#">Logout<img src="images/arrow.png" width="10px" alt=""> </a>
+              </div>
+
+
+        </div>
+        
+      </div>
+
+
+    </nav>
+
+    <div class="container">
+      <!----------------- left-sidebar --------------->
+      <div class="left-sidebar">
+        <div class="imp-links">
+          <a href="#"><img src="images/news.png" alt="news" /> Latest News</a>
+          <a href="#"><img src="images/friends.png" alt="news" /> Friends</a>
+          <a href="#"><img src="images/group.png" alt="news" /> Group</a>
+          <a href="#"><img src="images/marketplace.png" alt="news" /> Marketplace</a>
+          <a href="#"><img src="images/watch.png" alt="news" /> Watch</a>
+          <a href="#">See More</a>
+        </div>
+        <div class="shortcut-links">
+            <p>Your Shortcuts</p>
+            <a href="https://developer.mozilla.org/en-US/docs/Web"><img src="images/shortcut-1.png" alt="">Web Developers</a>
+            <a href="https://dribbble.com/"><img src="images/shortcut-2.png" alt="">Web Design</a>
+            <a href="https://bootcamp.cvn.columbia.edu/blog/how-to-become-a-full-stack-developer/"><img src="images/shortcut-3.png" alt="">Full Stack Development</a>
+            <a href="https://www.websiteexperts.in/"><img src="images/shortcut-4.png" alt="">Website Experts</a>
+        </div>
+      </div>
+      <!----------------- main-content  ---------------->
+      <div class="main-content">
+
+          <div class="story-gallery">
+            <div class="story story1">
+              <img src="images/upload.png" alt="">
+              <p>Post Story</p>
+            </div>
+            <div class="story story2">
+              <img src="images/member-1.png" alt="">
+              <p>Emma Lee</p>
+            </div>
+            <div class="story story3">
+              <img src="images/member-2.png" alt="">
+              <p>Anthony Stark</p>
+            </div>
+            <div class="story story4">
+              <img src="images/member-3.png" alt="">
+              <p>Natasha R.</p>
+            </div>
+            <div class="story story5">
+              <img src="images/member-4.png" alt="">
+              <p>Steve Rogers</p>
+            </div>
+          </div>
+
+
+          <div class="write-post-container">
+            <div class="user-profile">
+              <img src="images/profile-pic.png" alt="">
+              <div>
+                <p>Clint Barton</p>
+                <small>Public  <i class="fas fa-caret-down"></i></small>
+              </div>
+            </div>
+
+            <div class="post-input-container">
+              <textarea nrows="3" placeholder="What's On your mind, John"></textarea>
+              <div class="add-post-links">
+                <a href="#"><img src="images/live-video.png"> Live Video</a>
+                <a href="#"><img src="images/photo.png"> Photo Video</a>
+                <a href="#"><img src="images/feeling.png"> Feeling Activity</a>
+              </div>
+            </div>
+
+
+          </div>
+
+          <div class="post-container">
+            <div class="post-row">
+              <div class="user-profile">
+                <img src="images/profile-pic.png" alt="">
+                <div class="post-text">
+                  <p>Clint Barton</p>
+                  <span>June 24 2021, 15:40 pm</span>
+                </div>
+              </div>
+              <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+            
+            <p class="post-text">Hey Guys</span></p>
+            <img src="images/feed-image-1.png" class="post-img" alt="">
+
+              <div class="post-row">
+                <div class="activity-icons">
+                  <div> <img src="images/like-blue.png" alt="">115</div>
+                  <div> <img src="images/comments.png" alt="">77</div>
+                  <div> <img src="images/share.png" alt="">18</div>
+                </div>
+                <div class="post-profile-icon">
+                  <img src="images/profile-pic.png"  alt=""><i class="fas fa-caret-down"></i>
+                </div>
+              </div>
+
+          </div>
+
+          <div class="post-container">
+            <div class="post-row">
+              <div class="user-profile">
+                <img src="images/member-2.png" alt="">
+                <div class="post-text">
+                  <p>Ajay Singh</p>
+                  <span>November 13 2021, 15:40 pm</span>
+                </div>
+              </div>
+              <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+            
+            <p class="post-text">Had Fun at the beach With friends <a href="#">#Fun</a>
+              <a href="#">#Crazy</a></p>
+            <img src="images/feed-image-2.png" class="post-img" alt="">
+
+              <div class="post-row">
+                <div class="activity-icons">
+                  <div> <img src="images/like-blue.png" alt="">115</div>
+                  <div> <img src="images/comments.png" alt="">77</div>
+                  <div> <img src="images/share.png" alt="">18</div>
+                </div>
+                <div class="post-profile-icon">
+                  <img src="images/member-2.png"  alt=""><i class="fas fa-caret-down"></i>
+                </div>
+              </div>
+
+          </div>
+
+          <div class="post-container">
+            <div class="post-row">
+              <div class="user-profile">
+                <img src="images/member-3.png" alt="">
+                <div class="post-text">
+                  <p>Mary Jane</p>
+                  <span>November 13 2021, 15:40 pm</span>
+                </div>
+              </div>
+              <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+            
+            <p class="post-text">Random Click 😁</p>
+            <img src="images/feed-image-3.png" class="post-img" alt="">
+
+              <div class="post-row">
+                <div class="activity-icons">
+                  <div> <img src="images/like-blue.png" alt="">315</div>
+                  <div> <img src="images/comments.png" alt="">107</div>
+                  <div> <img src="images/share.png" alt="">33</div>
+                </div>
+                <div class="post-profile-icon">
+                  <img src="images/member-3.png"  alt=""><i class="fas fa-caret-down"></i>
+                </div>
+              </div>
+
+          </div>
+
+          <div class="post-container">
+            <div class="post-row">
+              <div class="user-profile">
+                <img src="images/member-6.png" alt="">
+                <div class="post-text">
+                  <p>Gwen Stacy</p>
+                  <span>November 13 2021, 15:40 pm</span>
+                </div>
+              </div>
+              <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+            
+            <p class="post-text">Motivational Monday</p>
+            <img src="images/feed-image-4.png" class="post-img" alt="">
+
+              <div class="post-row">
+                <div class="activity-icons">
+                  <div> <img src="images/like-blue.png" alt="">315</div>
+                  <div> <img src="images/comments.png" alt="">107</div>
+                  <div> <img src="images/share.png" alt="">33</div>
+                </div>
+                <div class="post-profile-icon">
+                  <img src="images/member-6.png"  alt=""><i class="fas fa-caret-down"></i>
+                </div>
+              </div>
+
+          </div>
+          <div class="post-container">
+            <div class="post-row">
+              <div class="user-profile">
+                <img src="images/member-7.png" alt="">
+                <div class="post-text">
+                  <p>Toby Maguire</p>
+                  <span>November 13 2021, 15:40 pm</span>
+                </div>
+              </div>
+              <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+            
+            <p class="post-text">Had a productive meeting</p>
+            <img src="images/feed-image-5.png" class="post-img" alt="">
+
+              <div class="post-row">
+                <div class="activity-icons">
+                  <div> <img src="images/like-blue.png" alt="">209</div>
+                  <div> <img src="images/comments.png" alt="">53</div>
+                  <div> <img src="images/share.png" alt="">15</div>
+                </div>
+                <div class="post-profile-icon">
+                  <img src="images/member-7.png"  alt=""><i class="fas fa-caret-down"></i>
+                </div>
+              </div>
+
+          </div>
+          <div class="post-container">
+            <div class="post-row">
+              <div class="user-profile">
+                <img src="images/member-10.png" alt="">
+                <div class="post-text">
+                  <p>Tom Holland</p>
+                  <span>December 1, 2021, 15:40 pm</span>
+                </div>
+              </div>
+              <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+            
+            <p class="post-text">See you soon  <a href="#">#NoWayHome</a> <a href="#">#MultiVerse</a></p> 
+            <img src="images/feed-image-6.png" class="post-img" alt="">
+
+              <div class="post-row">
+                <div class="activity-icons">
+                  <div> <img src="images/like-blue.png" alt="">3.5m</div>
+                  <div> <img src="images/comments.png" alt="">1.2m</div>
+                  <div> <img src="images/share.png" alt="">686k</div>
+                </div>
+                <div class="post-profile-icon">
+                  <img src="images/member-10.png"  alt=""><i class="fas fa-caret-down"></i>
+                </div>
+              </div>
+
+          </div>
+          <div class="post-container">
+            <div class="post-row">
+              <div class="user-profile">
+                <img src="images/member-11.png" alt="">
+                <div class="post-text">
+                  <p>Andrew Garfield</p>
+                  <span>December 1, 2021, 16:35 pm</span>
+                </div>
+              </div>
+              <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+            
+            <p class="post-text">Meet my friend from other universe <a href="#">#MultiVerse</a></p> 
+            <img src="images/feed-image-7.png" class="post-img" alt="">
+
+              <div class="post-row">
+                <div class="activity-icons">
+                  <div> <img src="images/like-blue.png" alt="">1.5m</div>
+                  <div> <img src="images/comments.png" alt="">786k</div>
+                  <div> <img src="images/share.png" alt="">456k</div>
+                </div>
+                <div class="post-profile-icon">
+                  <img src="images/member-11.png"  alt=""><i class="fas fa-caret-down"></i>
+                </div>
+              </div>
+
+          </div>
+          <div class="post-container">
+            <div class="post-row">
+              <div class="user-profile">
+                <img src="images/member-12.png" alt="">
+                <div class="post-text">
+                  <p>Gon Freeces</p>
+                  <span>December 2, 2021, 13:35 pm</span>
+                </div>
+              </div>
+              <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+            
+            <p class="post-text">On the top of World</p> 
+            <img src="images/feed-image-8.png" class="post-img" alt="">
+
+              <div class="post-row">
+                <div class="activity-icons">
+                  <div> <img src="images/like-blue.png" alt="">1.5m</div>
+                  <div> <img src="images/comments.png" alt="">786k</div>
+                  <div> <img src="images/share.png" alt="">456k</div>
+                </div>
+                <div class="post-profile-icon">
+                  <img src="images/member-12.png"  alt=""><i class="fas fa-caret-down"></i>
+                </div>
+              </div>
+
+          </div>
+
+          <button type="button" class="load-more-btn">Load More </button>
+
+
+
+      </div>
+      <!------------------- right-sidebar -------------->
+      <div class="right-sidebar">
+          <div class="sidebar-title">
+            <h4>Events</h4>
+            <a href="#">See All</a>
+          </div>
+          
+
+            <div class="event">
+                <div class="left-Event">
+                    <h3>2</h3>
+                    <span>December</span>
+                </div>
+                <div class="Right-Event">
+                    <h4>Lo-fi Event</h4>
+                    <p><i class="fas fa-map-marker-alt"></i></i></i>&nbsp;BJMC Department</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+
+
+            <div class="event">
+                <div class="left-Event">
+                    <h3>15</h3>
+                    <span>December</span>
+                </div>
+                <div class="Right-Event">
+                    <h4>Basketball Final</h4>
+                    <p><i class="fas fa-map-marker-alt"></i></i></i>&nbsp;V.S Stadium</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+
+            <div class="sidebar-title">
+              <h4>Advertisement</h4>
+              <a href="#">Close</a>
+            </div>
+            <img src="images/advertisement.png" class="sidebar-ads" alt="">
+           
+           
+            <div class="sidebar-title">
+              <h4>Conversations</h4>
+              <a href="#">Hide Chats</a>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                  <img src="images/member-1.png"  alt="">
+                </div>
+                <p>Alison Mina</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                  <img src="images/member-2.png"  alt="">
+                </div>
+                <p>Ajay Singh</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                  <img src="images/member-3.png"  alt="">
+                </div>
+                <p>Vikram Singh</p>
+            </div>
+
+
+            
+
+          
+      </div>
+    </div>
+    
+    <div class="hr-footer">
+      <hr>
+    </div>
+
+    <footer>
+      <div class="content">
+        <div class="left box">
+          <div class="upper">
+            <div class="topic">About us</div>
+            <p>Jims-Social is a platform designed exclusively for JIMS. </p>
+          </div>
+          <div class="lower">
+            <div class="topic">Contact us</div>
+            <div class="phone">
+              <a href="#"><i class="fas fa-phone-volume"></i>+918365561497</a>
+            </div>
+            <br>
+            <div class="email">
+              <a href="#"><i class="fas fa-envelope"></i>jimssocial@gmail.com</a>
+            </div>
+          </div>
+        </div>
+        <div class="middle box">
+          <div class="topic">Our Products</div>
+          <div><a href="#">JIMS College Website</a></div>
+          <div><a href="#">Web UX Design, Reasearch</a></div>
+          <div><a href="#">Web User Interface Design</a></div>
+          <div><a href="#">Theme Development, Design</a></div>
+          <div><a href="#">Mobile Application Design</a></div>
+          <div><a href="#">Wire framing & Prototyping</a></div>
+        </div>
+        <div class="right box">
+          <div class="topic">Subscribe our News Letter</div>
+          <form action="#">
+            <input type="text" placeholder="Enter email address">
+            <input type="submit" name="" value="Send">
+            <div class="media-icons">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="bottom">
+        <p>Copyright © 2020 <a href="#">Chirag & Shivam</a> All rights reserved</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!---For Carousel-->
+    <link rel="stylesheet" href="/path/to/flickity.css" media="screen">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <!---For Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!---For Icon --->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,200;1,700&display=swap" rel="stylesheet">
+    
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <!--Bootstrap connection-->
+    <link rel="stylesheet" type="text/css" href="/CSS-MY SITE/Bootstrap-installation/Bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>JEMTEC</title>
+</head>
+<body>
+    <section class="header">
+        <nav class="">
+            <a href="index.html" id="Logo-a"><img src="Photo/logo-removebg-preview.png" class="logo-img"></a>
+            <div class="nav-link" id="navLinks">
+                <i class="fas fa-times-circle icons " onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="file:///D:/Sample%20web/index.html">HOME |</a></li>
+                    <li><a href="file:///D:/Sample%20web/About%20us/About%20us.html">ABOUT |</a></li>
+                    <li><a href="file:///D:/Sample%20web/Courses/Courses.html">COURSE |</a></li>
+                    <li><a href="file:///D:/Sample%20web/Campus/Campus.html">CAMPUS |</a></li>
+                    <li><a href="#footer">CONTACT </a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars icons" onclick="showMenu()"></i>
+        </nav>
+    <div class="text-box">
+        <h1>Let's start to discover JIMS-Social</h1>
+        <a href="JimsSocial/loginPage.html" class="hero-btn">Visit Us To JIMS-Social</a>
+    </div>
+    </section>
+                   
+    <!-----------------Campus------------->
+
+    <section class="campus">
+        <h1>EXPLORE OUR 60+<br>MAJOR & PROGRAMS</h1>
+        <div class="row">
+            <div class="campus-col ">
+                <img src="Photo/Undergraduate program_3.jpg">
+                <div class="layer layer_1">
+                    <h3>Undergraduate</h3>
+                </div>
+                <p>Explore a range of majors and minors with <br>nearly limitless opportunities to launch your<br> career.</p>
+            </div>
+            <div class="campus-col ">
+                <img src="Photo/graduate.jpg">
+                <div class="layer layer_2">
+                    <h3>Graduate</h3>
+                </div>
+                <p>Grow as a leader and advance in your<br> profession with one of our graduate <br> for women and men.</p>
+            </div>
+            <div class="campus-col">
+                <img src="Photo/Adult_learning.jpg">
+                <div class="layer layer_3">
+                    <h3>Aldert learning <br> and Degree <br> Completion</h3>
+                </div>
+                <p>Elevate your career with adult degree-<br> programs and <br>licensure/certificate programs.</p>
+            </div>
+        </div>
+    </section>
+
+    <!------Icons area----------->
+    
+    <section class="icons-area"> 
+    <h1>JIMS KEY POINT</h1>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 icons-part">
+        <i class="fas fa-graduation-cap fa-5x icons-1" ></i>
+        <h4>BEST</h4>
+        <h3><b>VALUE</b></h3>
+        <h4>GRADUATION PROGRAMS</h4>
+        <p>So easy to use, even your dog could do it.</p>
+      </div>
+      <div class="col-lg-4 col-md-6 icons-part " style="border-left: solid #98002E">
+        <i class=" fas fa-trophy fa-5x icons-2"></i>
+        <h4>12 YEARS</h4>
+        <h3><b>STRONG <br> COMMITNMENT <br></b></h3>
+        <h4>TO TEACHING</h4>
+        <p>We have all the dogs, the greatest dogs.</p>
+      </div>
+      <div class="col-lg-4 icons-part " style="border-left:  solid #98002E;">
+        <i class="fa fa-lightbulb fa-5x icons-3 "></i>
+            <h4>MOST</h4>
+            <h3><b>INSPIRATIONAL</b></h3>
+            <h4>COLLEGE</h4>
+            <p>Find the love of your dog's life or your money back.</p>
+      </div>
+    </div>
+    </section>
+   
+    <!------Carousel area----->
+    <section class="testimonial">
+    <div class="carousel" data-flickity='{"wrapAround":true, "autoPlay": true}'>
+        <div class="carousel-cell">
+            <img src="Photo/jims_facilities_1.jpg">
+            <h1>JIMS LABS</h1>
+        </div>
+        <div class="carousel-cell">
+            <img src="Photo/jims_facilities_2.jpg">
+            <h1>JIMS LIBRARY</h1>
+        </div>
+        <div class="carousel-cell">
+            <img src="Photo/jims_facilities_3.webp">
+            <h1>JIMS COMPUTER LAB</h1>
+        </div>
+        <div class="carousel-cell">
+            <img src="Photo/jims_facilities_4.jpeg">
+            <h1>JIMS AUDITORIUM</h1>
+        </div>
+        <div class="carousel-cell">
+            <img src="Photo/jims_facilities_5.jpeg">
+            <h1>JIMS CANTEEN</h1>
+        </div>  
+        <div class="carousel-cell">
+            <img src="Photo/Transport.jpg">
+            <h1>JIMS Transport</h1>
+        </div>  
+    </div>
+    </section>
+
+    <!-----Data Part------>
+    <section class="data-part">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 ">
+                <h1 class="counter">10</h1>
+                <p class="sign">+</p>
+                <p>Major/Minor</p>
+            </div>
+            <div class="col-lg-4 col-md-6 ">
+                <h1 class="counter">93</h1>
+                <p class="sign">%</p>
+                <p>of Undergraduate students receive financial assistance</p>
+            </div>
+            <div class="col-lg-4 col-md-6 ">
+                <h1 class="counter">9</h1>
+                <p class="sign">:</p>
+                <h1 class="counter">1</h1>
+                <p>Student-to-faculty Ratio</p>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 1%;">
+            <div class="col-lg-4 col-md-6 ">
+                <h1 class="counter">30</h1>
+                <p class="sign">+</p>
+                <p>Student organizations</p>
+            </div>
+            <div class="col-lg-4 col-md-6 ">
+                <h1 class="counter">100</h1>
+                <p class="sign">%</p>
+                <p>Campus Placement</p>
+            </div>
+            <div class="col-lg-4 col-md-6 ">
+                <h1 class="counter">150</h1>
+                <p class="sign">+</p>
+                <p>Students events per year</p>
+            </div>
+        </div>
+  </section>
+  <!---------Quote area----------->
+  <section class="quote-area">
+      <div class=" container">
+            <div class="left "></div>
+            <div class="right ">
+                  <div class="content ">
+                      <p>At JIMS, I’ve been able to develop my communication skills and learned how to work well independently and on a team. With the support of my professors, I’ve been able to gain valuable career experience on and off campus. Ultimately, I’m becoming a stronger leader.
+
+                        <br><br>- Shurbhi Kumar, Class of 2019</p>
+                  </div>
+            </div>      
+      </div>
+  </section>
+  <!--------Button area----------->
+  <section class="button-area">
+      <div class="row">
+          <div>
+            <h1>Get ready for a bright <br> Future</h1>
+            <button onclick="window.location.href='file:///D:/Sample%20web/About%20us/About%20us.html';" class="btn-1 col-lg-3 col-md-6">Request More Info.</button>
+            <button onclick="window.location.href='file:///D:/Sample%20web/Admission/Admission.html';" class="btn-2 col-lg-3 col-md-6">Apply Now</button>
+            <button onclick="window.location.href='file:///D:/Sample%20web/Courses/Courses.html';" class="btn-3 col-lg-3 col-md-6">Explore Program</button>
+        </div>
+      </div>
+  </section>
+    <!--------Footer Logo----------->
+   <div class="Footer_img">
+       <img src="Photo/Footer-logo.png" alt="Footer_img">
+   </div>
+
+    <!--------Footer Part----------->
+    <section class="footer" id="footer">
+        <div class="row">
+            <div class="col-lg-3">
+                <img src="Photo/gn_logo.jpg">
+                <br><br>
+                <div class="Icons_hub">
+                    <a href="https://www.facebook.com/jimsemtc/"><i class="fab fa-facebook-f fa-2x footer-icons"></i></a> 
+                    <a href="https://twitter.com/JIMS_GN"><i class="fab fa-twitter fa-2x footer-icons"></i></a>
+                    <a href="https://jimsgnblog.blogspot.com/"><i class="fab fa-github fa-2x footer-icons"></i></a> 
+                    <a href="https://www.linkedin.com/in/jims-greater-noida/"><i class="fab fa-linkedin-in fa-2x footer-icons"></i></a> 
+                    
+                </div>
+            </div>
+            <div class="col-lg-3 footer-1">
+                <ul>
+                    <li><a href="https://www.google.com/maps/place/JIMS+Engineering+Management+Technical+Campus+(JEMTEC)/@28.4660186,77.4130869,12z/data=!4m16!1m10!4m9!1m1!4e2!1m6!1m2!1s0x390cea0f70009f75:0x22c86d7a6f81b56b!2sjims+gn!2m2!1d77.4831272!2d28.4660365!3m4!1s0x390cea0f70009f75:0x22c86d7a6f81b56b!8m2!3d28.4660365!4d77.4831272">
+                         48/4, Knowledge Park III, Greater Noida, Knowledge Park III, Noida, Uttar -Pradesh 201303</a></li>
+                    <li>Ph. 414-382-6000</li>
+                    <li>Contact Us : 0120- 2328670</li>
+                    <li><i class="fas fa-envelope fa-1x"></i>  admission.gn@jagannath.org</li>
+                </ul>
+            </div>
+            <div class="col-lg-3 footer-2">
+                <ul>
+                    <li><a href="file:///D:/Sample%20web/Career%20at%20jims/Career_at_jims.html">Careers at JIMS</a></li>
+                    <li><a href="file:///D:/Sample%20web/Events_At_Jims/Events_At_Jims.html">Events Spaces</a></li>
+                    <li><a href="file:///D:/Sample%20web/Placement/Placement.html">Placement Cell</a></li>
+                    <li><a href="file:///D:/Sample%20web/Privacy/Privacy.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 footer-3">
+                <ul>
+                    <li><a href="file:///D:/Sample%20web/Faculty%20&%20Staff/Faculty%20&%20Staff.html">Faculty & Staff</a></li>
+                    <li><a href="file:///D:/Sample%20web/Learning%20Outcome/Learning.html">Learning Outcome</a></li>
+                    <li><a href="file:///D:/Sample%20web/Harass/Harass.html"> Haraasement/Discrimination Policy</a></li>
+                    <li><a href="file:///D:/Sample%20web/Admission/Admission.html">Admission Enquiry</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!------Copy Right Area------>
+    <section class="copy-right">
+        <div>Copyright <i class="far fa-copyright"></i> 2019 Jims All Rights Reserved</div>
+    </section>
+
+    <!------------JavaScript for Toggle Menu------------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+    <!------For Carousel---------->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!------For Running the data-------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".counter").counterUp({
+                delay: 10,
+                time: 1200
+            });
+        });
+    </script>
+</body>
+</html>
