@@ -1,0 +1,124 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*------Header------*/
+.JIMS_MAIN{
+    width: 120%;
+    height: auto;
+}
+.part_1{
+    background: #98002E;
+    color: white;
+}
+.header_1{
+    transform: skewX(-14deg);
+    text-align: center;
+    margin-top: 5%;
+}
+.header_1 p{
+    margin-top: 10px;
+}
+.header_2{
+    background:	rgb(240, 41, 41);
+    transform: skewX(-14deg);
+}
+.part_1 img{
+    transform: skewX(-14deg);  
+}
+
+@media (max-width:900px){
+    .header_1,.header_2,.header_3{
+        transform: skewX(+14deg);
+    }
+}
+
+/*------ Home Icon --------*/
+.header-icons{
+    background-color: lightblue;
+    padding: 1% 20%;
+    ;
+}
+.header-icons a{
+    text-decoration: none;
+    color: black;
+}
+.header-icons a:hover{
+    box-shadow: inset 15px 2px 0 10px #f17c9f;
+    transform: scale(1.3);
+}
+
+/* ----- Content Part ------*/
+.content{
+    margin-top: 50px;
+}
+.content h1{
+    text-align: center;
+    color: #98002E;
+    font-weight: 900;
+}
+.content .content_upperPart{
+    text-align: center;
+    font-style: oblique 40deg;
+    color: black;
+}
+.content .row{
+    margin: 10px 100px;
+}
+.content h4{
+    padding-top: 50px;
+}
+@media (max-width: 1000px){
+    .content .row{
+        margin: 10px 50px;
+    }
+}
+
+/*------ Footer part ------*/
+.footer{
+    background-color: #98002E;
+    color: black;
+    margin-top: -10px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.icons{
+    color: rgb(140, 219, 245);
+    margin: 0px 10px;
+    filter: drop-shadow(0 0 0.2rem rgb(36, 3, 3));
+}
+.icons:hover{
+    transform: scale(1.3); 
+}
+.Footer-logo{
+    max-width: 70%;
+    margin-left: 50px;
+    height: auto;
+    border-radius: 10px 10px 60px 60px;
+    filter: drop-shadow(5px 5px 5px rgb(12, 12, 12));
+}
+
+.icons-hub{
+    margin-top: 30px;
+    padding: 0px 5px;
+}
+.icons-hub2{
+    margin-top: 40px    ;
+}
+.footer-content{
+    margin-top: 20px;
+}
+.Footer_img img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/*------- Copy Right -------*/
+.copy-right{
+    background: black;
+    padding: 10px 0px;
+    color: white;
+    text-align: center;
+}

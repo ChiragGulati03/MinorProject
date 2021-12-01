@@ -1,0 +1,380 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*------Header------*/
+.events_at_jims{
+    background: #98002E;
+    color: white;
+}
+.events_at_jims-2{
+    background:	rgb(240, 41, 41);
+    transform: skewX(-14deg);
+}
+.events_at_jims-1 h1{
+    text-align: center;
+    padding-top: 40%;
+}
+.events_at_jims-3 img{
+    max-width: 105%;
+    height: auto;
+  
+    transform: skewX(-14deg);
+}
+@media (max-width: 1000px){
+    .events_at_jims-3 img{
+        transform: skewX(0deg);
+    }
+    .events_at_jims-1 h1{
+        padding: 5% 0%;
+    }
+}
+
+/*------ Home Icon --------*/
+.header-icons{
+    background-color: lightblue;
+    padding: 1% 20%;
+    ;
+}
+.header-icons a{
+    text-decoration: none;
+    color: black;
+}
+.header-icons a:hover{
+    box-shadow: inset 15px 2px 0 10px #f17c9f;
+    transform: scale(1.3);
+}
+
+/*------ Society content -------*/
+.society-content{
+    margin: 5% ;
+    text-align: center;
+}
+/*-------Different campus--------*/
+
+.campus h1{
+    color: #98002E;
+    font-size: 46px;
+    font-weight: 800;
+    margin: 50px 0;
+    line-height: 50px;
+
+}
+
+.campus{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 5%;
+
+}
+.campus-col{
+    flex-basis: 30%;
+    margin: 0 2% 1% 1%;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.campus-col img{
+    width: 100%;   
+    height: auto;
+    display: block;
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.layer_1:hover{
+    background: rgba(135, 0, 100, .8);
+}
+.layer_2:hover{
+    background: rgba(0, 116, 129, .8);
+}
+.layer_3:hover{
+    background: rgba( 56, 92, 173, .8);
+}
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 15px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover h3{
+    bottom: 40%;
+    opacity: 0.9;
+}
+.campus-col{
+    box-shadow: 0 0 20px 0px rgba(8, 8, 8, 0.2);
+}
+@media (max-width: 900px){
+    .row{
+        flex-direction: column;
+    }
+    .h1{
+        font-size: 20px;
+    }
+}
+
+/*-------- Mission and Vision --------*/
+.vision img{
+    width: 1520px;
+    height: 300px;
+}
+
+
+/*------- Vision and Mission -------*/
+
+.main_VM{
+    width: 1530px;
+    height: 300px;   
+}
+.vision{
+    min-height: 80vh;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px 100px / 120px;
+    
+}
+.vision-col{
+    width: 100%;
+    max-height: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.vision-col img{
+    max-width: 300px;
+    height: auto;
+    margin-top:  50px;
+    border-radius: 10%;
+    border: 3px solid rgb(7, 67, 85);
+    filter: drop-shadow(0 0 0.75rem rgb(110, 66, 75));
+}
+.right{
+    margin: 50px 0 0 50px;
+}
+#ForVision {
+    text-align: center;
+}
+@media (max-width: 900px){
+    .vision-col img{
+        width: 200px;
+        height: 150px;
+        margin-left: 50px;
+        margin-top: 0px;
+    }
+    .vision-col p{
+        width: 270px;
+        height: 216px;
+        font-size: 0.8rem;
+        padding-right: 50px;
+    }
+    .main_VM{
+        max-width: 100%;
+        height: auto;
+        border: solid #98002E 2px; 
+    }
+    .vision-values{
+        margin-left: 200px;
+    }
+}
+/*-------- Vision and Mission --------*/
+.vision-values{
+    margin: 10px 0 0 200px;
+}
+/*  JIMS QUOTE ----*/
+.JIMS_Quote h2{
+    text-align: center;
+}
+.JIMS_Quote h4{
+    margin-left: 200px;
+    font: bold 1rem;
+}
+.JIMS-quote img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    height: auto;
+    border: solid lightblue 4px;
+}
+
+@media (max-width: 900px){
+    .JIMS-quote img{
+        margin-left: 60px;
+    }
+    .JIMS_Quote h4{
+        margin-left: 100px;
+    }
+}
+
+
+/*------- Governing body and Members ------*/
+.governing{
+    text-align: center;
+}
+.governing h2{
+    margin: 50px auto;
+}
+.governing h5{
+    color: #00008B;
+}
+.governing p{
+    color: #dc3545;
+}
+.governing img{
+    width: 100%;
+    height: 60%;
+    margin-top: 20px;
+    border-style: inset;
+}
+.row{
+    margin: 0 100px ;
+    margin-top: 10px;
+}
+.governing-col{
+    display: inline;
+    margin: 0px 10px;
+    border-radius: 15px;
+    margin-bottom: 30px;  
+    overflow: hidden;
+    border: solid lightblue;
+}
+.governing-col:hover{
+    transform: scale(1.3);   
+    opacity: 0.10s;
+    z-index: 1;  
+}
+
+/*------ JEMTEC ------*/
+.JEMTEC{
+    max-width: 100%;
+    height: auto;
+}
+
+#MAINFRONT{
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.JEMTEC p, h2 ,h4{
+    text-align: center;
+    font-weight: 1000;
+}
+.JEMTEC Fas-img{
+    max-height: 100%;
+    height: auto;
+}
+.Fac{
+    margin-top: 50px;
+}
+.Fas-1{
+    z-index: 1;
+    filter: drop-shadow(2px 5px 20px #4444dd);    
+}
+.Fas-img{
+    display: block;
+}
+.Fas-2{
+    z-index: 5;
+    margin: 5px 0 5px 50px;
+    filter: drop-shadow(2px 5px 20px #4444dd);
+}
+.Fas-3{
+    z-index: 7; 
+    filter: drop-shadow(2px 10px 20px #4444dd);
+}
+.Fas-1, .Fas-2, .Fas-3{
+    border-radius: 10% / 50%;
+    border-style: inset;
+    border-color: #4b212d;
+    
+}
+.leftone{
+    padding-left: 50px;
+}
+.rightone{
+    padding-left: 0px;
+    border-radius: 10px;
+    z-index: 1; 
+}
+.JEMTEC h6{
+    color: #173857;
+}
+@media (max-width :1000px){
+    .JEMTEC .Fas-img{
+       text-align: left;
+    }
+    .rightone{
+        margin-top: 40px;
+    }
+}
+
+
+/*----------Footer Part-----------*/
+
+.footer{
+    background-color: #98002E;
+    color: black;
+    margin-top: -10px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.icons{
+    color: rgb(140, 219, 245);
+    margin: 0px 10px;
+    filter: drop-shadow(0 0 0.2rem rgb(36, 3, 3));
+}
+.icons:hover{
+    transform: scale(1.3); 
+}
+.Footer-logo{
+    max-width: 70%;
+    height: auto;
+    border-radius: 10px 10px 60px 60px;
+    filter: drop-shadow(5px 5px 5px rgb(12, 12, 12));
+}
+
+.icons-hub{
+    margin-top: 25px;
+    padding: 0px 5px;
+}
+.icons-hub2{
+    margin-top: 40px    ;
+}
+.footer-content{
+    margin-top: 20px;
+}
+.Footer_img img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/*------- Copy Right -------*/
+.copy-right{
+    background: black;
+    padding: 10px 0px;
+    color: white;
+    text-align: center;
+}
